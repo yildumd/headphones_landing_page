@@ -1,0 +1,97 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #161616;
+  background-color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #161616;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: #FF6565;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #FF6565;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.learn-more {
+  display: block;
+  margin-top: 10px;
+  color: #FF6565;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+/* Hero Image Section */
+.hero-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 40px;
+}
